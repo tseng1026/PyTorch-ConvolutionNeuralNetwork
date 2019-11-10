@@ -50,8 +50,6 @@ class DataTst(Dataset):
 	def __init__(self, data):
 		self.data      = data
 		self.transform = transforms.Compose([
-						 # transforms.RandomAffine(15, translate=(0.1,0.1), scale=(0.9,1.1), shear=10, fillcolor=0),
-						 # transforms.RandomHorizontalFlip(),
 						 transforms.ToTensor(),
 						 # transforms.Normalize([mean], [std], inplace=False)
 						 ])
