@@ -14,7 +14,6 @@ if __name__=='__main__':
 	
 	# parsing the arguments
 	args = Parsing.Args()
-	mode = args.mode
 	dataname = args.d
 	modlname = args.m
 	outputfile = args.o
