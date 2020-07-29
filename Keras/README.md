@@ -4,6 +4,7 @@
 - **Platform:** Linux (Workstation)
 - **Language:** Python3
 - **Environment:** GPU
+- **Framework:** Tensorflow/Keras
 - **Usage:**
 	- ``CUDA_VISIBLE_DEVICES=<number> python Train.py -d <data dir> -l <data list> -m <model name> ``
 	- ``CUDA_VISIBLE_DEVICES=<number> python Test.py -d <data dir> -m <model name> -o <output file>``
